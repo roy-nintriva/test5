@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "concurrently \"vite build --watch --mode development\" \"vite preview --port 4174\""
+    "preview": "vite preview --port 4174 --strictPort --host",
+    "start": "concurrently \"vite build --watch --mode development\" \"vite preview --port 5176\""
   },
   "dependencies": {
     "react": "19.1.0",

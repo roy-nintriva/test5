@@ -21,9 +21,9 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  preview: {
-    port: 4174,
-    strictPort: true,
-    host: true,
-  },
+  // preview: {
+  //   port: 4174,
+  //   strictPort: true,
+  //   host: true,
+  // },
 })
